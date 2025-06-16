@@ -167,14 +167,14 @@ const courses = [
   return (
     <>
       {/* Decorative Footer Image */}
-      <img 
+      {/* <img 
         src="/assets/banners/footer.png" 
         alt="Footer Banner" 
         className="w-full"
         style={{ clipPath: 'polygon(0 0, 100% 20%, 100% 100%, 0% 100%)' }} 
-      />
+      /> */}
 
-      <footer className="bg-gradient-to-br from-gray-900 via-indigo-900 to-purple-900 text-gray-200">
+      <footer className="bg-gradient-to-br from-gray-900 via-indigo-900 to-purple-900 text-gray-200 border-t-4 border-orange-500">
 
         {/* ===== First Footer Section ===== */}
         <div className="max-w-full mx-auto px-12 py-12 grid grid-cols-1 md:grid-cols-6 gap-4">

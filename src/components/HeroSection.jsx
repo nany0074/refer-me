@@ -50,15 +50,15 @@ function HeroSection() {
               </div>
               <div className="flex-1 grid grid-cols-3 gap-4 md:gap-6">
                 <div className="text-center p-4 rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-md">
-                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">60K+</p>
-                  <p className="text-gray-700 mt-2 font-medium">Companies Trained</p>
+                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">10K+</p>
+                  <p className="text-gray-700 mt-2 font-medium">Trained Corporates</p>
                 </div>
                 <div className="text-center p-4 rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-md">
-                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">300K+</p>
+                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">20+</p>
                   <p className="text-gray-700 mt-2 font-medium">Courses & Videos</p>
                 </div>
                 <div className="text-center p-4 rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-md">
-                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">700+</p>
+                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">1400+</p>
                   <p className="text-gray-700 mt-2 font-medium">Training Providers</p>
                 </div>
               </div>

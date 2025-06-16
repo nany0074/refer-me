@@ -14,14 +14,14 @@ import { FaShippingFast, FaHeadset, FaUndoAlt } from 'react-icons/fa';
       title: "Summer Collection",
       subtitle: "New Arrivals 2023",
       // image: '../../src/assets/banners/ban2.png', // - wrong method
-      image: '/assets/banners/image (3).png', // - right metho
+      image: '/assets/banners/online-coures8 (4).jpg', // - right metho
       cta: "Shop Now"
     },
     {
       id: 2,
       title: "Winter Special",
       subtitle: "Up to 50% Off",
-      image: "/assets/banners/ban2.png",
+      image: "assets/banners/online-coures8 (4).jpg",
       cta: "Discover More"
     },
     {
@@ -35,7 +35,7 @@ import { FaShippingFast, FaHeadset, FaUndoAlt } from 'react-icons/fa';
         id: 4,
         title: "Limited Edition",
         subtitle: "Exclusive Designs",
-        image: "/assets/banners/online-coures 3.jpg",
+        image: "assets/banners/online-coures8 (4).jpg",
         cta: "View Collection"
       },
       {
@@ -63,7 +63,7 @@ import { FaShippingFast, FaHeadset, FaUndoAlt } from 'react-icons/fa';
         id: 8,
         title: "Limited Edition",
         subtitle: "Exclusive Designs",
-        image: "/assets/banners/online-courses6.jpeg",
+        image: "/assets/banners/online-coures7 (1).jpg",
         cta: "View Collection"
       }
   ];

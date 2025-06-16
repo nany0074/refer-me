@@ -151,11 +151,11 @@ const TestimonialSection = () => {
                 READ MORE
               </a> */}
               <div className="flex items-center mt-4 border-t-2 pt-4">
-                <img
+                {/* <img
                   src="https://via.placeholder.com/40"
                   alt="avatar"
                   className="w-10 h-10 rounded-full mr-3"
-                />
+                /> */}
                 <div>
                   <p className="font-medium">{testimonial.author}</p>
                   <p className="text-sm text-gray-500">{testimonial.role}</p>
