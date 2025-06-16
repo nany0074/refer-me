@@ -14,7 +14,7 @@ const courses = [
     originalPrice: "₹ 39,999",
     discount: "25% OFF",
     gradient: "from-teal-600 to-green-500",
-    bannerImage: "public/assets/products/data-science.jpg",
+    bannerImage: "/assets/products/data-science.jpg",
      videoPresentation: "/assets/bg-img/gif2.gif",
     instructors: [
       {
@@ -846,7 +846,7 @@ const courses = [
     "originalPrice": "₹ 45,999",
     "discount": "22% OFF",
     "gradient": "from-green-600 to-teal-500",
-    "bannerImage": "public/assets/products/tosca-1.jpg",
+    "bannerImage": "/assets/products/tosca-1.jpg",
     "videoPresentation": "/assets/bg-img/tosca-preview.mp4",
     "instructors": [
       {
@@ -1135,7 +1135,7 @@ const courses = [
     "originalPrice": "₹ 38,999",
     "discount": "26% OFF",
     "gradient": "from-purple-600 to-indigo-600",
-    "bannerImage": "public/assets/products/ba-tools.jpg",
+    "bannerImage": "/assets/products/ba-tools.jpg",
     "videoPresentation": "/assets/bg-img/ba-preview.mp4",
     "instructors": [
       {
@@ -2457,7 +2457,7 @@ const courses = [
   "originalPrice": "₹ 29,999",
   "discount": "33% OFF",
   "gradient": "from-teal-600 to-cyan-600",
-  "bannerImage": "public/assets/products/power-automate.jpg",
+  "bannerImage": "/assets/products/power-automate.jpg",
   "videoPresentation": "/assets/bg-img/pa-preview.mp4",
   "instructors": [
     {
@@ -3185,7 +3185,7 @@ const courses = [
   "originalPrice": "₹ 36,999",
   "discount": "27% OFF",
   "gradient": "from-yellow-600 to-orange-600",
-  "bannerImage": "public/assets/products/capital-market.jpg",
+  "bannerImage": "/assets/products/capital-market.jpg",
   "videoPresentation": "/assets/bg-img/cm-preview.mp4",
   "instructors": [
     {
@@ -3433,7 +3433,7 @@ const courses = [
   "originalPrice": "₹ 44,999",
   "discount": "22% OFF",
   "gradient": "from-cyan-600 to-blue-600",
-  "bannerImage": "public/assets/products/azure.jpg",
+  "bannerImage": "/assets/products/azure.jpg",
   "videoPresentation": "/assets/bg-img/azure-devops-preview.mp4",
   "instructors": [
     {
@@ -3721,7 +3721,7 @@ const courses = [
   "originalPrice": "₹ 42,999",
   "discount": "23% OFF",
   "gradient": "from-orange-500 to-yellow-600",
-  "bannerImage": "public/assets/products/aws.png",
+  "bannerImage": "/assets/products/aws.png",
   "videoPresentation": "/assets/bg-img/aws-devops-preview.mp4",
   "instructors": [
     {
@@ -3902,7 +3902,7 @@ const courses = [
   "originalPrice": "₹ 37,999",
   "discount": "26% OFF",
   "gradient": "from-purple-600 to-pink-600",
-  "bannerImage": "public/assets/products/api-integration.jpg",
+  "bannerImage": "/assets/products/api-integration.jpg",
   "videoPresentation": "/assets/bg-img/api-automation-ai-preview.mp4",
   "instructors": [
     {
@@ -4165,7 +4165,7 @@ const courses = [
   "originalPrice": "₹ 29,999",
   "discount": "33% OFF",
   "gradient": "from-orange-600 to-red-600",
-  "bannerImage": "public/assets/products/java.jpg",
+  "bannerImage": "/assets/products/java.jpg",
   "videoPresentation": "/assets/bg-img/core-java-preview.mp4",
   "instructors": [
     {
@@ -4403,7 +4403,7 @@ const courses = [
   "originalPrice": "₹ 38,999",
   "discount": "26% OFF",
   "gradient": "from-teal-600 to-cyan-600",
-  "bannerImage": "public/assets/products/cypress.jpg",
+  "bannerImage": "/assets/products/cypress.jpg",
   "videoPresentation": "/assets/bg-img/cypress-typescript-ai-preview.mp4",
   "instructors": [
     {
@@ -4650,7 +4650,7 @@ const courses = [
   "originalPrice": "₹ 39,999",
   "discount": "25% OFF",
   "gradient": "from-blue-600 to-purple-600",
-  "bannerImage": "public/assets/products/selenium.jpg",
+  "bannerImage": "/assets/products/selenium.jpg",
   "videoPresentation": "/assets/bg-img/selenium-ai-preview.mp4",
   "instructors": [
     {
@@ -4910,7 +4910,7 @@ const courses = [
   "originalPrice": "₹ 34,999",
   "discount": "28% OFF",
   "gradient": "from-green-600 to-blue-600",
-  "bannerImage": "public/assets/products/product-mgt.jpg",
+  "bannerImage": "/assets/products/product-mgt.jpg",
   "videoPresentation": "/assets/bg-img/product-management-preview.mp4",
   "instructors": [
     {
@@ -5104,7 +5104,7 @@ const courses = [
   "originalPrice": "₹ 32,999",
   "discount": "30% OFF",
   "gradient": "from-purple-600 to-indigo-600",
-  "bannerImage": "public/assets/products/buss-analyst.jpg",
+  "bannerImage": "/assets/products/buss-analyst.jpg",
   "videoPresentation": "/assets/bg-img/business-analyst-preview.mp4",
   "instructors": [
     {
