@@ -223,16 +223,16 @@ const ContactUs = () => {
               <div className="bg-white p-4 rounded-lg shadow-md">
                 <h3 className="text-lg font-semibold text-gray-700 mb-4">Our Location</h3>
                 <div className="overflow-hidden rounded-lg">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.715391308425!2d77.4320063150833!3d28.64213998241499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee5a5f5a5f5f%3A0x5f5f5f5f5f5f5f5f!2sAditya%20Park%20Town%2C%20Ghaziabad%2C%20Uttar%20Pradesh%20201002!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
-                    width="100%"
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.719415033119!2d77.48062777495811!3d28.668118882464704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf2170c95d41d%3A0x63766c47c72173a7!2sRefer%20Me%20Group!5e0!3m2!1sen!2sin!4v1750077987488!5m2!1sen!2sin"  width="100%"
                     height="400"
                     style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
                     title="Google Maps Location"
-                    className="rounded-lg"
-                  ></iframe>
+                    className="rounded-lg"></iframe>
+
+
                 </div>
                 <div className="mt-4 text-center">
                   <a

@@ -21,13 +21,13 @@ const Companies = () => {
       {
         breakpoint: 1280,
         settings: {
-          slidesToShow: 12,
+          slidesToShow: 10,
         },
       },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 10,
+          slidesToShow: 9,
         },
       },
       {
@@ -193,22 +193,22 @@ const Companies = () => {
         </h2>
 
         {/* Container with overflow hidden */}
-        <div className="relative overflow-hidden px-2 py-3 bg-gradient-to-b from-blue-200 to-gray-300 rounded-lg">
-          <Slider {...sliderSettings}>
-            {companies.map((company) => (
-              <div key={company.id} className="px-1 focus:outline-none">
-                <div className="flex items-center justify-center h-16 md:h-20">
-                  {/* Logo image */}
-                  <img
-                    src={company.logo}
-                    alt={company.name}
-                    className="h-40 md:h-20 w-auto object-cover opacity-80 hover:opacity-100 transition-opacity px-1 border border-gray-50 border-2 "
-                  />
-                </div>
-              </div>
-            ))}
-          </Slider>
+     <div className="relative overflow-hidden px-2 py-3 bg-gradient-to-b from-blue-200 to-gray-300 rounded-lg">
+  <Slider {...sliderSettings}>
+    {companies.map((company) => (
+      <div key={company.id} className="px-1 focus:outline-none">
+        <div className="flex items-center justify-center h-16 md:h-20">
+          {/* Logo image */}
+          <img
+            src={company.logo}
+            alt={company.name}
+            className="h-16 md:h-20 w-auto max-w-full object-contain opacity-80 hover:opacity-100 transition-opacity px-1 border border-gray-50 border-2"
+          />
         </div>
+      </div>
+    ))}
+  </Slider>
+</div>
       </div>
     </div>
   );

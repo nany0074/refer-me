@@ -49,17 +49,17 @@ function HeroSection() {
                 </ul>
               </div>
               <div className="flex-1 grid grid-cols-3 gap-4 md:gap-6">
-                <div className="text-center p-4 rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-md">
-                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">10K+</p>
+                <div className="text-center p-6 rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-md">
+                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">1200+</p>
                   <p className="text-gray-700 mt-2 font-medium">Trained Corporates</p>
                 </div>
-                <div className="text-center p-4 rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-md">
-                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">20+</p>
+                <div className="text-center p-6 rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-md">
+                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">12+</p>
                   <p className="text-gray-700 mt-2 font-medium">Courses & Videos</p>
                 </div>
-                <div className="text-center p-4 rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-md">
-                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">1400+</p>
-                  <p className="text-gray-700 mt-2 font-medium">Training Providers</p>
+                <div className="text-center p-6 rounded-lg transition-all duration-300 hover:bg-blue-50 hover:shadow-md">
+                  <p className="text-4xl font-extrabold text-blue-700 animate-pulse-once">12K+</p>
+                  <p className="text-gray-700 mt-2 font-medium">Training Hours</p>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ function HeroSection() {
       </section>
 
       {/* <img src="src/assets/banners/Banner-1.png" alt="" /> - wrong method import src image */} 
-      <img src="/assets/banners/Banner-1.png" alt="" /> 
+      <img src="/assets/banners/Banner-1.png" alt="" className='w-full' /> 
     </>
 
   );
