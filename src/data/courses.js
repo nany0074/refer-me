@@ -2,6 +2,7 @@
 const courses = [
   {
     id: "data-science",
+      "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Data Science Content (1).pdf",
     category: "Data Science, AI & Automation",
     title: "Data Science",
     shortDesc: "Master data science with hands-on training in Python, machine learning, deep learning, and data visualization using Tableau.",
@@ -322,6 +323,7 @@ const courses = [
   },
  {
   "id": "ai-for-leaders",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_AI for LEADERS Training Content (1).pdf",
   "category": "Artificial Intelligence",
   "title": "AI for Leaders",
   "shortDesc": "Master AI leadership skills with practical training in machine learning, generative AI, and ethical AI implementation for business transformation.",
@@ -335,7 +337,7 @@ const courses = [
   "discount": "22% OFF",
   "gradient": "from-purple-600 to-blue-500",
   "bannerImage": "/assets/products/AI for leaders.jpg",
-  "videoPresentation": "/assets/bg-img/gif2.gif",
+  "videoPresentation": "/assets/bg-img/gif1.gif",
   "instructors": [
     {
       "name": "Dr. Anil Kumar",
@@ -590,6 +592,7 @@ const courses = [
 
  {
     "id": "advanced-data-science",
+      "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Advance Data Science Content (1).pdf",
     "category": "Data Science & AI",
     "title": "Advanced Data Science",
     "shortDesc": "Master advanced data science techniques with Python, financial analysis, and AI/ML applications in finance.",
@@ -603,7 +606,7 @@ const courses = [
     "discount": "23% OFF",
     "gradient": "from-blue-600 to-indigo-600",
     "bannerImage": "/assets/products/adv datascience.jpg",
-    "videoPresentation": "/assets/bg-img/advanced-ds-preview.mp4",
+    "videoPresentation": "/assets/bg-img/gif2.gif",
     "instructors": [
       {
         "name": "Dr. Sanjay Verma",
@@ -834,6 +837,7 @@ const courses = [
   },
   {
     "id": "tosca-automation",
+      "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Tosca Training Content (1).pdf",
     "category": "Automation Testing",
     "title": "Tosca Automation",
     "shortDesc": "Master Tosca automation tool for end-to-end testing of SAP, Salesforce, and web applications with real-world projects.",
@@ -847,7 +851,7 @@ const courses = [
     "discount": "22% OFF",
     "gradient": "from-green-600 to-teal-500",
     "bannerImage": "/assets/products/tosca-1.jpg",
-    "videoPresentation": "/assets/bg-img/tosca-preview.mp4",
+    "videoPresentation": "/assets/bg-img/gif3.gif",
     "instructors": [
       {
         "name": "Rahul Mehta",
@@ -1123,6 +1127,7 @@ const courses = [
   },
   {
     "id": "business-analyst-tools",
+      "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Business Analyst with Tools (1).pdf",
     "category": "Business Analysis",
     "title": "Business Analyst with Tools",
     "shortDesc": "Comprehensive business analysis training covering requirements gathering, agile methodologies, and essential BA tools like JIRA and SQL.",
@@ -1136,7 +1141,7 @@ const courses = [
     "discount": "26% OFF",
     "gradient": "from-purple-600 to-indigo-600",
     "bannerImage": "/assets/products/ba-tools.jpg",
-    "videoPresentation": "/assets/bg-img/ba-preview.mp4",
+    "videoPresentation": "/assets/bg-img/gif2.gif",
     "instructors": [
       {
         "name": "Nisha Patel",
@@ -1415,6 +1420,7 @@ const courses = [
 },
 {
   "id": "advance-automation",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Advance Automation Content (1).pdf",
   "category": "Automation Testing",
   "title": "Advance Automation Testing",
   "shortDesc": "Comprehensive automation testing training covering Java, Selenium, SOAP UI, Rest Assured, JMeter, Playwright, Cypress, and DevOps tools like Jenkins and Docker.",
@@ -1428,7 +1434,7 @@ const courses = [
   "discount": "28% OFF",
   "gradient": "from-blue-600 to-teal-600",
   "bannerImage": "/assets/products/adv aotomation.jpg",
-  "videoPresentation": "/assets/bg-img/automation-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif7.gif",
   "instructors": [
     {
       "name": "Anil Sharma",
@@ -1721,6 +1727,7 @@ const courses = [
 },
 {
   "id": "program-manager",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Program Manager Content (2).pdf",
   "category": "Program Management",
   "title": "Program Manager (Skills 360 Degree)",
   "shortDesc": "Comprehensive program management training covering PMI standards, agile methodologies, stakeholder management, and risk mitigation strategies.",
@@ -1734,7 +1741,7 @@ const courses = [
   "discount": "30% OFF",
   "gradient": "from-green-600 to-blue-600",
   "bannerImage": "/assets/products/prgm mangr.jpg",
-  "videoPresentation": "/assets/bg-img/pm-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif1.gif",
   "instructors": [
     {
       "name": "Rahul Mehra",
@@ -1994,6 +2001,7 @@ const courses = [
 },
 {
   "id": "ai-automation",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Artificial Intelligence Automation (1).pdf",
   "category": "Artificial Intelligence & Automation",
   "title": "Artificial Intelligence Automation Testing",
   "shortDesc": "Comprehensive training in AI-powered automation testing, covering Python programming, AI integration with Selenium, Cypress, Playwright, and CI/CD pipelines.",
@@ -2007,7 +2015,7 @@ const courses = [
   "discount": "25% OFF",
   "gradient": "from-orange-600 to-red-600",
   "bannerImage": "/assets/products/AItest.jpg",
-  "videoPresentation": "/assets/bg-img/ai-automation-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif3.gif",
   "instructors": [
     {
       "name": "Suresh Kumar",
@@ -2222,6 +2230,7 @@ const courses = [
 },
 {
   "id": "digital-marketing",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Digital Marketing (1).pdf",
   "category": "Digital Marketing",
   "title": "Digital Marketing Essentials & Executive Program",
   "shortDesc": "Comprehensive digital marketing training covering SEO, social media, paid advertising, YouTube marketing, influencer marketing, and e-commerce strategies.",
@@ -2235,7 +2244,7 @@ const courses = [
   "discount": "29% OFF",
   "gradient": "from-purple-600 to-pink-600",
   "bannerImage": "/assets/products/dm.jpg",
-  "videoPresentation": "/assets/bg-img/dm-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif3.gif",
   "instructors": [
     {
       "name": "Vikram Rao",
@@ -2445,6 +2454,7 @@ const courses = [
 },
 {
   "id": "power-automate",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Power Automate Content (1).pdf",
   "category": "Automation",
   "title": "Power Automate",
   "shortDesc": "Comprehensive training in Microsoft Power Automate, covering workflows, email, Excel, PDF, database automation, and intelligent automation with OCR.",
@@ -2458,7 +2468,7 @@ const courses = [
   "discount": "33% OFF",
   "gradient": "from-teal-600 to-cyan-600",
   "bannerImage": "/assets/products/power-automate.jpg",
-  "videoPresentation": "/assets/bg-img/pa-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif4.gif",
   "instructors": [
     {
       "name": "Amit Joshi",
@@ -2683,6 +2693,7 @@ const courses = [
 },
 {
   "id": "agile-project-manager",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Agile Project Manager Content (1).pdf",
   "category": "Project Management",
   "title": "Agile Project Manager",
   "shortDesc": "Comprehensive training in Agile and Scrum methodologies, equipping you with skills to manage projects effectively as an Agile Project Manager.",
@@ -2696,7 +2707,7 @@ const courses = [
   "discount": "29% OFF",
   "gradient": "from-blue-600 to-indigo-600",
   "bannerImage": "/assets/products/agile.jpg",
-  "videoPresentation": "/assets/bg-img/agile-pm-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif5.gif",
   "instructors": [
     {
       "name": "Rahul Desai",
@@ -2929,6 +2940,7 @@ const courses = [
 },
 {
   "id": "uipath",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_UiPath Content (1).pdf",
   "category": "Robotic Process Automation",
   "title": "UiPath RPA",
   "shortDesc": "Comprehensive training in UiPath for robotic process automation, covering workflows, automation of web, email, Excel, and advanced features like Orchestrator.",
@@ -2942,7 +2954,7 @@ const courses = [
   "discount": "30% OFF",
   "gradient": "from-green-600 to-teal-600",
   "bannerImage": "/assets/products/UI.png",
-  "videoPresentation": "/assets/bg-img/uipath-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif8.gif",
   "instructors": [
     {
       "name": "Sanjay Patel",
@@ -3173,6 +3185,7 @@ const courses = [
 },
 {
   "id": "capital-market",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Capital Market Content (1).pdf",
   "category": "Finance",
   "title": "Capital Market",
   "shortDesc": "Comprehensive training in financial markets, covering equity, derivatives, fixed income, mutual funds, forex, and trade life cycle.",
@@ -3186,7 +3199,7 @@ const courses = [
   "discount": "27% OFF",
   "gradient": "from-yellow-600 to-orange-600",
   "bannerImage": "/assets/products/capital-market.jpg",
-  "videoPresentation": "/assets/bg-img/cm-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif2.gif",
   "instructors": [
     {
       "name": "Vikash Kumar",
@@ -3421,6 +3434,7 @@ const courses = [
 },
 {
   "id": "cloud-engineering-azure-devops",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Cloud Engineering Content_Azure DevOps (1).pdf",
   "category": "Cloud Computing",
   "title": "Cloud Engineering with Azure DevOps",
   "shortDesc": "Comprehensive training in Microsoft Azure and DevOps, covering cloud infrastructure, virtual machines, networking, and CI/CD pipelines.",
@@ -3434,7 +3448,7 @@ const courses = [
   "discount": "22% OFF",
   "gradient": "from-cyan-600 to-blue-600",
   "bannerImage": "/assets/products/azure.jpg",
-  "videoPresentation": "/assets/bg-img/azure-devops-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif6.gif",
   "instructors": [
     {
       "name": "Kunal Sharma",
@@ -3707,189 +3721,10 @@ const courses = [
     "Ansible"
   ]
 },
-{
-  "id": "cloud-engineering-aws-devops",
-  "category": "Cloud Computing",
-  "title": "Cloud Engineering with AWS DevOps",
-  "shortDesc": "Master AWS cloud infrastructure and DevOps tools like Terraform, Docker, Kubernetes, and Jenkins. Build scalable, automated solutions with hands-on projects.",
-  "longDesc": "This comprehensive AWS DevOps course covers cloud computing fundamentals, AWS services (EC2, S3, VPC, Lambda), and DevOps tools (Ansible, Jenkins, Docker, Kubernetes). Learn to automate deployments, manage CI/CD pipelines, and implement infrastructure as code (IaC) with real-world use cases. Includes job assistance and certification guidance.",
-  "type": "Instructor-led Live Classes",
-  "duration": "12 Weeks (120 Hours)",
-  "schedule": "Weekdays: 7-9 PM | Weekends: 10 AM-1 PM",
-  "enrolled": "350+ Enrolled",
-  "price": "₹ 32,999",
-  "originalPrice": "₹ 42,999",
-  "discount": "23% OFF",
-  "gradient": "from-orange-500 to-yellow-600",
-  "bannerImage": "/assets/products/aws.png",
-  "videoPresentation": "/assets/bg-img/aws-devops-preview.mp4",
-  "instructors": [
-    {
-      "name": "Rajesh Verma",
-      "role": "AWS Solutions Architect",
-      "experience": "10 years",
-      "image": "/assets/instructors/rajesh-verma.jpg",
-      "rating": 4.8,
-      "reviews": 400,
-      "bio": "Expert in AWS cloud architecture and automation with Terraform.",
-      "expertise": ["AWS", "Terraform", "DevOps"],
-      "social": {
-        "linkedIn": "https://linkedin.com/in/rajeshverma-aws",
-        "twitter": "https://twitter.com/rajeshverma_cloud"
-      }
-    },
-    {
-      "name": "Priya Nair",
-      "role": "DevOps Engineer",
-      "experience": "7 years",
-      "image": "/assets/instructors/priya-nair.jpg",
-      "rating": 4.7,
-      "reviews": 320,
-      "bio": "Specializes in CI/CD pipelines and Kubernetes orchestration.",
-      "expertise": ["Kubernetes", "Jenkins", "Docker"],
-      "social": {
-        "linkedIn": "https://linkedin.com/in/priyanair-devops",
-        "twitter": "https://twitter.com/priyanair_devops"
-      }
-    }
-  ],
-  "images": [
-    "/assets/courses/aws-devops-1.jpg",
-    "/assets/courses/aws-devops-2.jpg"
-  ],
-  "videos": [
-    "https://www.youtube.com/embed/aws-devops-preview1",
-    "https://www.youtube.com/embed/aws-devops-preview2"
-  ],
-  "features": [
-    "Master AWS core services (EC2, S3, VPC, Lambda)",
-    "Automate infrastructure with Terraform & Ansible",
-    "Build CI/CD pipelines using Jenkins",
-    "Deploy containers with Docker & Kubernetes",
-    "Real-world projects & use cases",
-    "AWS certification guidance",
-    "Job assistance & mock interviews",
-    "Lifetime access to resources"
-  ],
-  "curriculum": [
-    {
-      "module": "AWS Fundamentals",
-      "topics": [
-        { "title": "Cloud Computing Basics", "duration": "3 Hours" },
-        { "title": "AWS Global Infrastructure", "duration": "2 Hours" },
-        { "title": "IAM, EC2, and S3", "duration": "5 Hours" },
-        { "title": "VPC, ELB, and Auto Scaling", "duration": "5 Hours" }
-      ]
-    },
-    {
-      "module": "AWS Advanced Services",
-      "topics": [
-        { "title": "RDS, DynamoDB, and ElastiCache", "duration": "4 Hours" },
-        { "title": "Lambda and Serverless Architecture", "duration": "3 Hours" },
-        { "title": "CloudFront and Route 53", "duration": "3 Hours" },
-        { "title": "CloudWatch and SNS", "duration": "3 Hours" }
-      ]
-    },
-    {
-      "module": "DevOps Tools",
-      "topics": [
-        { "title": "Python & Boto3 for AWS Automation", "duration": "6 Hours" },
-        { "title": "Infrastructure as Code (Terraform)", "duration": "6 Hours" },
-        { "title": "Configuration Management (Ansible)", "duration": "5 Hours" },
-        { "title": "CI/CD with Jenkins", "duration": "6 Hours" }
-      ]
-    },
-    {
-      "module": "Containerization & Orchestration",
-      "topics": [
-        { "title": "Docker Fundamentals", "duration": "4 Hours" },
-        { "title": "Kubernetes on AWS (EKS)", "duration": "6 Hours" },
-        { "title": "ELK Stack for Monitoring", "duration": "4 Hours" }
-      ]
-    }
-  ],
-  "projects": [
-    {
-      "title": "Automated AWS Infrastructure",
-      "description": "Deploy a scalable web app using Terraform, EC2, and Auto Scaling.",
-      "skills": ["Terraform", "EC2", "Auto Scaling"]
-    },
-    {
-      "title": "CI/CD Pipeline for Microservices",
-      "description": "Build a Jenkins pipeline to deploy Docker containers on EKS.",
-      "skills": ["Jenkins", "Docker", "Kubernetes"]
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "Arjun Menon",
-      "role": "Cloud Engineer",
-      "rating": 4.9,
-      "content": "The hands-on labs on Terraform and EKS were game-changers for my career.",
-      "image": "/assets/testimonials/arjun-m.jpg"
-    },
-    {
-      "name": "Sneha Reddy",
-      "role": "DevOps Lead",
-      "rating": 4.8,
-      "content": "Loved the practical approach to AWS troubleshooting and automation.",
-      "image": "/assets/testimonials/sneha-r.jpg"
-    }
-  ],
-  "faqs": [
-    {
-      "question": "Is Linux knowledge required?",
-      "answer": "Basic Linux familiarity is helpful; the course includes a Linux refresher module."
-    },
-    {
-      "question": "Will I get AWS certification support?",
-      "answer": "Yes, the course covers exam patterns and provides practice tests."
-    }
-  ],
-  "placementStats": {
-    "placementRate": "85%",
-    "averageSalary": "₹ 10 LPA",
-    "hiringPartners": ["Amazon", "Accenture", "Wipro", "Capgemini"]
-  },
-  "badges": ["AWS Certified", "DevOps Engineer", "Kubernetes Expert"],
-  "instituteDetails": {
-    "description": "Refer Me Group has trained 350+ professionals in AWS DevOps, with a focus on practical, job-ready skills. Our 10+ years of experience ensure quality training at affordable fees.",
-    "keyOfferings": [
-      "Hands-on AWS and DevOps labs",
-      "Real-time project simulations",
-      "1:1 mentorship",
-      "Resume and LinkedIn profile workshops"
-    ],
-    "highlights": [
-      "350+ Professionals Trained in AWS + DevOps",
-      "4.8 Rating by 740+ Professionals on Google",
-      "2,500+ Automation Success Stories",
-      "11,000+ Hours of Training Delivered"
-    ]
-  },
-  "programExecution": [
-    "Online Trainer-Led Sessions",
-    "Module-wise Case Studies",
-    "Mock Interviews",
-    "Resume & LinkedIn Optimization"
-  ],
-  "addOnBenefits": [
-    "Lifetime Session Recordings",
-    "Dedicated WhatsApp Support Group",
-    "Premium Job Portal Access"
-  ],
-  "toolsCovered": [
-    "AWS EC2/S3/VPC",
-    "Terraform",
-    "Ansible",
-    "Jenkins",
-    "Docker",
-    "Kubernetes",
-    "Python Boto3"
-  ]
-},
+
 {
   "id": "api-automation-ai",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/API Automation Course Content Using AI (1).docx",
   "category": "Test Automation",
   "title": "API Automation with AI Integration",
   "shortDesc": "Master API automation using REST Assured with AI-powered features like intelligent test case generation and self-healing scripts.",
@@ -3903,7 +3738,7 @@ const courses = [
   "discount": "26% OFF",
   "gradient": "from-purple-600 to-pink-600",
   "bannerImage": "/assets/products/api-integration.jpg",
-  "videoPresentation": "/assets/bg-img/api-automation-ai-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif7.gif",
   "instructors": [
     {
       "name": "Arjun Kapoor",
@@ -4153,6 +3988,7 @@ const courses = [
 },
 {
   "id": "core-java",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Core_Java_CourseContent (1).docx",
   "category": "Programming",
   "title": "Core Java",
   "shortDesc": "Learn the fundamentals of Java programming, including OOP concepts, exception handling, and collections.",
@@ -4166,7 +4002,7 @@ const courses = [
   "discount": "33% OFF",
   "gradient": "from-orange-600 to-red-600",
   "bannerImage": "/assets/products/java.jpg",
-  "videoPresentation": "/assets/bg-img/core-java-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif8.gif",
   "instructors": [
     {
       "name": "Sameer Khan",
@@ -4391,6 +4227,7 @@ const courses = [
 },
 {
   "id": "cypress-typescript-ai",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Cypress Course Content with TypeScript and AI-Driven Framework (1).docx",
   "category": "Test Automation",
   "title": "Cypress with TypeScript and AI-Driven Framework",
   "shortDesc": "Learn end-to-end testing with Cypress and TypeScript, enhanced by AI-driven frameworks for self-healing tests and visual validation.",
@@ -4404,7 +4241,7 @@ const courses = [
   "discount": "26% OFF",
   "gradient": "from-teal-600 to-cyan-600",
   "bannerImage": "/assets/products/cypress.jpg",
-  "videoPresentation": "/assets/bg-img/cypress-typescript-ai-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif5.gif",
   "instructors": [
     {
       "name": "Rohit Verma",
@@ -4638,6 +4475,7 @@ const courses = [
 },
 {
   "id": "selenium-ai",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Selenium Course Content Using AI (1).docx",
   "category": "Test Automation",
   "title": "Selenium with AI Integration",
   "shortDesc": "Master Selenium 4 with AI-driven automation, featuring self-healing locators, intelligent synchronization, and visual validation.",
@@ -4651,7 +4489,7 @@ const courses = [
   "discount": "25% OFF",
   "gradient": "from-blue-600 to-purple-600",
   "bannerImage": "/assets/products/selenium.jpg",
-  "videoPresentation": "/assets/bg-img/selenium-ai-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif3.gif",
   "instructors": [
     {
       "name": "Manish Patel",
@@ -4896,8 +4734,10 @@ const courses = [
     "Git"
   ]
 },
+
 {
   "id": "product-management",
+    "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Product Management Content (2).pdf",
   "category": "Product Management",
   "title": "Product Management Certification",
   "shortDesc": "Master end-to-end product management, from ideation to launch, with agile methodologies and data-driven strategies.",
@@ -4911,7 +4751,7 @@ const courses = [
   "discount": "28% OFF",
   "gradient": "from-green-600 to-blue-600",
   "bannerImage": "/assets/products/product-mgt.jpg",
-  "videoPresentation": "/assets/bg-img/product-management-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif7.gif",
   "instructors": [
     {
       "name": "Priya Sharma",
@@ -5088,10 +4928,63 @@ const courses = [
   "toolsCovered": [
     "Jira", "Trello", "Figma", 
     "Google Analytics", "Mixpanel"
-  ]
+  ],
+  "recommended": true,
+  "certificationSection": {
+    "title": "Globally recognized Product Management certification",
+    "description": "Our program prepares you for industry-standard certifications in Agile and Product Management frameworks.",
+    "features": [
+      {
+        "icon": "images/3_5.png",
+        "title": "Product Strategy Certification",
+        "description": "Earn certification in product roadmap development and strategic planning."
+      },
+      {
+        "icon": "images/1_5.png",
+        "title": "Agile Product Owner Certification",
+        "description": "Get certified in Agile methodologies and Scrum frameworks."
+      }
+    ]
+  },
+  "aboutInstitute": {
+    "title": "About - Refer Me Group",
+    "description": "With over 10 years of experience in professional education, we've transformed thousands of careers through practical, industry-focused training.",
+    "features": [
+      {
+        "icon": "cube",
+        "content": "Our Product Management course is designed by industry experts from top tech companies."
+      },
+      {
+        "icon": "briefcase",
+        "title": "Placement Assistance",
+        "content": "We provide dedicated support with resume building, interview prep, and job placement."
+      }
+    ],
+    "reviews": [
+      { "platform": "Google", "rating": "4.8/5", "count": "740+", "icon": "images/Google_Icon.svg" },
+      { "platform": "LinkedIn", "rating": "4.9/5", "count": "3500+", "icon": "images/linkedin_icon.svg" }
+    ]
+  },
+  "demandSection": {
+    "title": "India's growing demand for skilled Product Managers",
+    "description": "With digital transformation accelerating across industries, companies are actively seeking product managers who can bridge business and technology.",
+    "trainingOptions": [
+      {
+        "title": "Classroom Product Management Course",
+        "image": "custom/image_section/offline-pm-class.png",
+        "description": "Interactive classroom sessions with hands-on product development exercises."
+      },
+      {
+        "title": "Online Product Management Program",
+        "image": "custom/image_section/online-pm-class.png",
+        "description": "Flexible online learning with live projects and mentor guidance."
+      }
+    ]
+  }
 },
 {
   "id": "business-analyst",
+  "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Business Analyst Content (2).pdf",
   "category": "Business Analysis",
   "title": "Business Analyst Certification",
   "shortDesc": "Master end-to-end business analysis with hands-on training in requirements gathering, Agile methodologies, and SQL basics.",
@@ -5105,7 +4998,7 @@ const courses = [
   "discount": "30% OFF",
   "gradient": "from-purple-600 to-indigo-600",
   "bannerImage": "/assets/products/buss-analyst.jpg",
-  "videoPresentation": "/assets/bg-img/business-analyst-preview.mp4",
+  "videoPresentation": "/assets/bg-img/gif2.gif",
   "instructors": [
     {
       "name": "Neha Gupta",
@@ -5275,7 +5168,293 @@ const courses = [
   "toolsCovered": [
     "JIRA", "Confluence", "SQL", 
     "UML Tools", "Microsoft Visio"
-  ]
+  ],
+  "recommended": true,
+  "certificationSection": {
+    "title": "Globally recognized Business Analysis certification",
+    "description": "Our program prepares you for industry-standard certifications in Business Analysis and Agile methodologies.",
+    "features": [
+      {
+        "icon": "images/3_5.png",
+        "title": "IIBA Certification Prep",
+        "description": "Preparation for ECBA/CCBA certification exams."
+      },
+      {
+        "icon": "images/1_5.png",
+        "title": "Agile Analysis Certification",
+        "description": "Certification in Agile business analysis techniques."
+      }
+    ]
+  },
+  "aboutInstitute": {
+    "title": "About - Refer Me Group",
+    "description": "With over 10 years of experience in professional education, we've transformed thousands of careers through practical, industry-focused training.",
+    "features": [
+      {
+        "icon": "cube",
+        "content": "Our Business Analysis curriculum is designed by experts from top consulting firms."
+      },
+      {
+        "icon": "briefcase",
+        "title": "Placement Assistance",
+        "content": "We provide dedicated support with resume building, interview prep, and job placement."
+      }
+    ],
+    "reviews": [
+      { "platform": "Google", "rating": "4.8/5", "count": "740+", "icon": "images/Google_Icon.svg" },
+      { "platform": "LinkedIn", "rating": "4.9/5", "count": "3500+", "icon": "images/linkedin_icon.svg" }
+    ]
+  },
+  "demandSection": {
+    "title": "High demand for skilled Business Analysts in India",
+    "description": "With digital transformation across industries, companies need BAs who can bridge business and IT with analytical and technical skills.",
+    "trainingOptions": [
+      {
+        "title": "Classroom Business Analysis Course",
+        "image": "custom/image_section/offline-ba-class.png",
+        "description": "Interactive classroom sessions with hands-on requirements engineering exercises."
+      },
+      {
+        "title": "Online Business Analysis Program",
+        "image": "custom/image_section/online-ba-class.png",
+        "description": "Flexible online learning with live projects and mentor guidance."
+      }
+    ]
+  }
+},
+{
+  "id": "cloud-engineering-aws-devops",
+  "curriculumPdfUrl":"/assets/Course-Curriculam/Refer Me Group_Cloud Engineering Content_Aws DevOps (2).pdf",
+  "category": "Cloud Computing",
+  "title": "Cloud Engineering with AWS DevOps",
+  "shortDesc": "Master AWS cloud infrastructure and DevOps tools like Terraform, Docker, Kubernetes, and Jenkins. Build scalable, automated solutions with hands-on projects.",
+  "longDesc": "This comprehensive AWS DevOps course covers cloud computing fundamentals, AWS services (EC2, S3, VPC, Lambda), and DevOps tools (Ansible, Jenkins, Docker, Kubernetes). Learn to automate deployments, manage CI/CD pipelines, and implement infrastructure as code (IaC) with real-world use cases. Includes job assistance and certification guidance.",
+  "type": "Instructor-led Live Classes",
+  "duration": "12 Weeks (120 Hours)",
+  "schedule": "Weekdays: 7-9 PM | Weekends: 10 AM-1 PM",
+  "enrolled": "350+ Enrolled",
+  "price": "₹ 32,999",
+  "originalPrice": "₹ 42,999",
+  "discount": "23% OFF",
+  "gradient": "from-orange-500 to-yellow-600",
+  "bannerImage": "/assets/products/aws.png",
+  "videoPresentation": "/assets/bg-img/gif2.gif",
+  "instructors": [
+    {
+      "name": "Rajesh Verma",
+      "role": "AWS Solutions Architect",
+      "experience": "10 years",
+      "image": "/assets/instructors/rajesh-verma.jpg",
+      "rating": 4.8,
+      "reviews": 400,
+      "bio": "Expert in AWS cloud architecture and automation with Terraform.",
+      "expertise": ["AWS", "Terraform", "DevOps"],
+      "social": {
+        "linkedIn": "https://linkedin.com/in/rajeshverma-aws",
+        "twitter": "https://twitter.com/rajeshverma_cloud"
+      }
+    },
+    {
+      "name": "Priya Nair",
+      "role": "DevOps Engineer",
+      "experience": "7 years",
+      "image": "/assets/instructors/priya-nair.jpg",
+      "rating": 4.7,
+      "reviews": 320,
+      "bio": "Specializes in CI/CD pipelines and Kubernetes orchestration.",
+      "expertise": ["Kubernetes", "Jenkins", "Docker"],
+      "social": {
+        "linkedIn": "https://linkedin.com/in/priyanair-devops",
+        "twitter": "https://twitter.com/priyanair_devops"
+      }
+    }
+  ],
+  "images": [
+    "/assets/courses/aws-devops-1.jpg",
+    "/assets/courses/aws-devops-2.jpg"
+  ],
+  "videos": [
+    "https://www.youtube.com/embed/aws-devops-preview1",
+    "https://www.youtube.com/embed/aws-devops-preview2"
+  ],
+  "features": [
+    "Master AWS core services (EC2, S3, VPC, Lambda)",
+    "Automate infrastructure with Terraform & Ansible",
+    "Build CI/CD pipelines using Jenkins",
+    "Deploy containers with Docker & Kubernetes",
+    "Real-world projects & use cases",
+    "AWS certification guidance",
+    "Job assistance & mock interviews",
+    "Lifetime access to resources"
+  ],
+  "curriculum": [
+    {
+      "module": "AWS Fundamentals",
+      "topics": [
+        { "title": "Cloud Computing Basics", "duration": "3 Hours" },
+        { "title": "AWS Global Infrastructure", "duration": "2 Hours" },
+        { "title": "IAM, EC2, and S3", "duration": "5 Hours" },
+        { "title": "VPC, ELB, and Auto Scaling", "duration": "5 Hours" }
+      ]
+    },
+    {
+      "module": "AWS Advanced Services",
+      "topics": [
+        { "title": "RDS, DynamoDB, and ElastiCache", "duration": "4 Hours" },
+        { "title": "Lambda and Serverless Architecture", "duration": "3 Hours" },
+        { "title": "CloudFront and Route 53", "duration": "3 Hours" },
+        { "title": "CloudWatch and SNS", "duration": "3 Hours" }
+      ]
+    },
+    {
+      "module": "DevOps Tools",
+      "topics": [
+        { "title": "Python & Boto3 for AWS Automation", "duration": "6 Hours" },
+        { "title": "Infrastructure as Code (Terraform)", "duration": "6 Hours" },
+        { "title": "Configuration Management (Ansible)", "duration": "5 Hours" },
+        { "title": "CI/CD with Jenkins", "duration": "6 Hours" }
+      ]
+    },
+    {
+      "module": "Containerization & Orchestration",
+      "topics": [
+        { "title": "Docker Fundamentals", "duration": "4 Hours" },
+        { "title": "Kubernetes on AWS (EKS)", "duration": "6 Hours" },
+        { "title": "ELK Stack for Monitoring", "duration": "4 Hours" }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Automated AWS Infrastructure",
+      "description": "Deploy a scalable web app using Terraform, EC2, and Auto Scaling.",
+      "skills": ["Terraform", "EC2", "Auto Scaling"]
+    },
+    {
+      "title": "CI/CD Pipeline for Microservices",
+      "description": "Build a Jenkins pipeline to deploy Docker containers on EKS.",
+      "skills": ["Jenkins", "Docker", "Kubernetes"]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Arjun Menon",
+      "role": "Cloud Engineer",
+      "rating": 4.9,
+      "content": "The hands-on labs on Terraform and EKS were game-changers for my career.",
+      "image": "/assets/testimonials/arjun-m.jpg"
+    },
+    {
+      "name": "Sneha Reddy",
+      "role": "DevOps Lead",
+      "rating": 4.8,
+      "content": "Loved the practical approach to AWS troubleshooting and automation.",
+      "image": "/assets/testimonials/sneha-r.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Linux knowledge required?",
+      "answer": "Basic Linux familiarity is helpful; the course includes a Linux refresher module."
+    },
+    {
+      "question": "Will I get AWS certification support?",
+      "answer": "Yes, the course covers exam patterns and provides practice tests."
+    }
+  ],
+  "placementStats": {
+    "placementRate": "85%",
+    "averageSalary": "₹ 10 LPA",
+    "hiringPartners": ["Amazon", "Accenture", "Wipro", "Capgemini"]
+  },
+  "badges": ["AWS Certified", "DevOps Engineer", "Kubernetes Expert"],
+  "instituteDetails": {
+    "description": "Refer Me Group has trained 350+ professionals in AWS DevOps, with a focus on practical, job-ready skills. Our 10+ years of experience ensure quality training at affordable fees.",
+    "keyOfferings": [
+      "Hands-on AWS and DevOps labs",
+      "Real-time project simulations",
+      "1:1 mentorship",
+      "Resume and LinkedIn profile workshops"
+    ],
+    "highlights": [
+      "350+ Professionals Trained in AWS + DevOps",
+      "4.8 Rating by 740+ Professionals on Google",
+      "2,500+ Automation Success Stories",
+      "11,000+ Hours of Training Delivered"
+    ]
+  },
+  "programExecution": [
+    "Online Trainer-Led Sessions",
+    "Module-wise Case Studies",
+    "Mock Interviews",
+    "Resume & LinkedIn Optimization"
+  ],
+  "addOnBenefits": [
+    "Lifetime Session Recordings",
+    "Dedicated WhatsApp Support Group",
+    "Premium Job Portal Access"
+  ],
+  "toolsCovered": [
+    "AWS EC2/S3/VPC",
+    "Terraform",
+    "Ansible",
+    "Jenkins",
+    "Docker",
+    "Kubernetes",
+    "Python Boto3"
+  ],
+  "recommended": true,
+  "certificationSection": {
+    "title": "Globally recognized AWS and DevOps certifications",
+    "description": "Our program prepares you for industry-standard AWS certifications and DevOps tool certifications.",
+    "features": [
+      {
+        "icon": "images/3_5.png",
+        "title": "AWS Certified Solutions Architect",
+        "description": "Preparation for AWS Solutions Architect - Associate certification."
+      },
+      {
+        "icon": "images/1_5.png",
+        "title": "Certified Kubernetes Administrator",
+        "description": "Hands-on training for CKA certification."
+      }
+    ]
+  },
+  "aboutInstitute": {
+    "title": "About - Refer Me Group",
+    "description": "With over 10 years of experience in professional education, we've transformed thousands of careers through practical, industry-focused training.",
+    "features": [
+      {
+        "icon": "cube",
+        "content": "Our AWS DevOps curriculum is designed by certified architects from top cloud companies."
+      },
+      {
+        "icon": "briefcase",
+        "title": "Placement Assistance",
+        "content": "We provide dedicated support with resume building, interview prep, and job placement."
+      }
+    ],
+    "reviews": [
+      { "platform": "Google", "rating": "4.8/5", "count": "740+", "icon": "images/Google_Icon.svg" },
+      { "platform": "LinkedIn", "rating": "4.9/5", "count": "3500+", "icon": "images/linkedin_icon.svg" }
+    ]
+  },
+  "demandSection": {
+    "title": "Skyrocketing demand for AWS and DevOps professionals",
+    "description": "As cloud adoption accelerates, companies are urgently seeking professionals skilled in AWS and DevOps automation tools.",
+    "trainingOptions": [
+      {
+        "title": "Classroom AWS DevOps Course",
+        "image": "custom/image_section/offline-aws-class.png",
+        "description": "Hands-on labs with AWS infrastructure and DevOps toolchains."
+      },
+      {
+        "title": "Online Cloud Engineering Program",
+        "image": "custom/image_section/online-aws-class.png",
+        "description": "Flexible online learning with real-world cloud projects."
+      }
+    ]
+  }
 }
 
     

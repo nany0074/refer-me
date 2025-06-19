@@ -45,7 +45,7 @@ const ContactUs = () => {
   return (
     <>
       <div>
-        <img src={"/assets/banners/bann2.jpg"} alt="Banner" className="w-full" />
+        <img src={"/assets/banner-new/contact.jpeg"} alt="Banner" className="w-full" />
       </div>
 
       <div className="min-h-screen bg-blue-50 py-12 px-4">

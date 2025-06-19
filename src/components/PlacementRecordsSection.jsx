@@ -10,25 +10,57 @@ const PlacementRecordsSection = () => {
       name: "Adil Thakur",
       lpa: "47.61 LPA",
       company: "ServiceNow",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+      image: "https://media.istockphoto.com/id/1448071296/photo/portrait-of-happy-indian-teenager-college-or-school-boy-holding-books-isolated-on-white.jpg?s=612x612&w=0&k=20&c=VIdVGH8UgmXdAeqroDaCKNZDLvoFO59ReIZqGPUdJP4=",
     },
     {
       name: "Shachi Gupta",
       lpa: "42.87 LPA",
       company: "ServiceNow",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+      image: "https://media.istockphoto.com/id/2216235140/photo/teenage-girl-studying-at-home-stock-photo.jpg?s=612x612&w=0&k=20&c=XvAxBTwyznZwjvSl0MOhDIG73VbxpCRbDw4pe1Z01T8=",
     },
     {
       name: "Yasir M.",
       lpa: "3 Crore",
       company: "Global IT Giant",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+      image: "https://media.istockphoto.com/id/1284864677/photo/smiling-young-student-of-indian-origin-carrying-shoulder-bag-and-a-book.jpg?s=612x612&w=0&k=20&c=SlnRGIFZLoQFkxCCju2SzLmOZW5i9IBVYFsaDgYnNZU=",
     },
     {
-      name: "Kurapati Yaswanth",
+      name: "Kreeti Yaswanth",
       lpa: "27 LPA",
       company: "Juspay",
-      image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+      image: "https://media.istockphoto.com/id/1362063465/photo/female-teen-student-with-a-backpack-and-books-smiling-stock-photo.jpg?s=612x612&w=0&k=20&c=cstb2dGLkOJSfRt9TBEj2G9hfYyIR8mYuBWdZZStsbc=",
+    },
+
+
+    {
+      name: "Atul Gupta",
+      lpa: "27 LPA",
+      company: "Google",
+      image: "https://media.istockphoto.com/id/1141737652/photo/portrait-of-a-confident-young-man.jpg?s=612x612&w=0&k=20&c=YQaYjmbPGpJ0DXxGSTLHFPWsBKjBsAmR_l-XHYt2vHU=",
+    },,
+    {
+      name: "Jaya Prakash",
+      lpa: "27 LPA",
+      company: "Tech Mahindra",
+      image: "https://media.istockphoto.com/id/1331422830/photo/confident-smiling-indian-school-teacher-with-students-in-background.jpg?s=612x612&w=0&k=20&c=Y6yICEM3uqYlF0f-PyNPUuVXyjcOyoaqToKZv8vyNZY=",
+    },
+    {
+      name: "Gaurav Goel",
+      lpa: "27 LPA",
+      company: "Dell",
+      image: "https://media.istockphoto.com/id/1398271493/photo/college-student-with-book-and-backpack-outdoor.jpg?s=612x612&w=0&k=20&c=ybXfCOTANR-Q1_mp-EBEZWbqpW3vTOxCUktXSG0ysAk=",
+    },
+    {
+      name: "Rahul Umar",
+      lpa: "27 LPA",
+      company: "Impetus",
+      image: "https://media.istockphoto.com/id/1336832660/photo/male-teenage-student-in-yellow-background-stock-photo.jpg?s=612x612&w=0&k=20&c=24LklaK0hoPbe7bGCSHZPbaWJKV6yH0F1b8lABbOS30=",
+    },
+    {
+      name: "Prachi Sharma",
+      lpa: "27 LPA",
+      company: "Greenway",
+      image: "https://media.istockphoto.com/id/1222372717/photo/indian-young-girl-stock-images.jpg?s=612x612&w=0&k=20&c=OYtnDHPUcBMzT_CYBKETl1_f5DFOCHfXo3hY0R9pinM=",
     },
   ];
 
@@ -85,7 +117,7 @@ const PlacementRecordsSection = () => {
                 </div>
                 {/* Student Details */}
                 <h3 className="text-xl font-semibold text-gray-800">{student.name}</h3>
-                <p className="text-indigo-600 font-bold text-lg mt-2">{student.lpa}</p>
+                {/* <p className="text-indigo-600 font-bold text-lg mt-2">{student.lpa}</p> */}
                 <p className="text-gray-600 mt-1">{student.company}</p>
               </div>
             </div>

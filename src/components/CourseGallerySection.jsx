@@ -185,7 +185,9 @@ const CourseGallerySection = () => {
                 >
                   View Course
                 </Link>
-                <button className="flex-1 bg-gradient-to-r from-indigo-600 to-purple-600  purple-600 text-white py-2.5 rounded-xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center font-medium shadow-lg">
+                <button className="flex-1 bg-gradient-to-r from-indigo-600 to-purple-600  purple-600 text-white py-2.5 rounded-xl hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center font-medium shadow-lg"
+               onClick={() => window.open(course.curriculumPdfUrl, '_blank')} 
+                >
                   <svg
                     className="w-5 h-5 mr-2"
                     fill="none"

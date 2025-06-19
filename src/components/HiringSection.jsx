@@ -13,8 +13,8 @@ const HiringSection = () => {
         {/* LEFT TEXT */}
         <div className="md:w-1/3 text-left">
           <h2 className="text-3xl font-bold text-gray-900 leading-tight">
-            <span className="text-purple-700">350+ Companies</span> are hiring<br />
-            from <span className="text-purple-700 font-semibold">Refer Me Group</span>
+            <span className="text-purple-700"> Placement Partners </span> Who Value <br />
+             <span className="text-purple-700 font-semibold">Our Candidates</span>
           </h2>
         </div>
 

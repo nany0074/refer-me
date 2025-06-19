@@ -439,7 +439,7 @@ export default function Navbar() {
                   className="px-4 py-2 text-sm font-medium text-white hover:text-yellow-300 transition-colors"
                   aria-label="Careers"
                 >
-                  Careers
+                  Job Groups
                 </Link>
                 <Link
                   to="/contact"

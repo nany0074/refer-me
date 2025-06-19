@@ -18,6 +18,7 @@ import {
   FaNetworkWired,
   FaTrophy,
   FaGift,
+  FaDownload,
 } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import { RiMoneyDollarCircleLine } from "react-icons/ri";
@@ -342,65 +343,69 @@ const course = courses.find((item) => item.id === courseId);
                 </div>
               </div>
               <div className="flex flex-wrap gap-4">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="px-8 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-gray-50 transition duration-300 shadow-lg flex items-center"
-                  onClick={() => course.videos?.[0] && setSelectedVideo(course.videos[0])}
-                >
-                  <FaPlay className="mr-2" /> Watch Free Demo
-                </motion.button>
+               <motion.button
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="px-8 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-gray-50 transition duration-300 shadow-lg flex items-center"
+  onClick={() => window.open(course.curriculumPdfUrl, '_blank')}
+>
+  <FaDownload className="mr-2" /> Download Course Curriculum
+</motion.button>
               </div>
             </div>
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="lg:w-1/3 bg-white bg-opacity-10 rounded-2xl p-8 border border-white border-opacity-20 backdrop-blur-lg"
-            >
-              <div className="mb-6">
-                <span className="text-gray-300 line-through text-lg">
-                  {course.originalPrice || "N/A"}
-                </span>
-                <div className="flex items-center">
-                  <span className="text-4xl font-bold mr-3">
-                    {course.price || "N/A"}
-                  </span>
-                  <span className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full font-medium">
-                    {course.discount || "0% off"}
-                  </span>
-                </div>
-              </div>
-              <div className="space-y-5 mb-8">
-                <div className="flex items-center">
-                  <FaClock className="mr-3 text-indigo-300 text-xl" />
-                  <span>{course.duration || "N/A"}</span>
-                </div>
-                <div className="flex items-center">
-                  <FaLaptopCode className="mr-3 text-indigo-300 text-xl" />
-                  <span>{course.type || "N/A"}</span>
-                </div>
-                <div className="flex items-center">
-                  <FaUserTie className="mr-3 text-indigo-300 text-xl" />
-                  <span>Mentorship Sessions</span>
-                </div>
-                <div className="flex items-center">
-                  <FaCertificate className="mr-3 text-indigo-300 text-xl" />
-                  <span>Certificate of Completion</span>
-                </div>
-              </div>
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition duration-300 shadow-md"
-                onClick={() => navigate(`/enroll/${course.id}`)}
-              >
-                Enroll Now
-              </motion.button>
-              <div className="text-center text-sm text-gray-300 mt-4">
-                <p>7-Day Money Back Guarantee</p>
-              </div>
-            </motion.div>
+           <motion.div
+  initial={{ opacity: 0, x: 50 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8, delay: 0.2 }}
+  className="lg:w-1/3 bg-white bg-opacity-10 rounded-2xl p-8 border border-white border-opacity-20 backdrop-blur-lg"
+>
+  <form className="space-y-6">
+    <div>
+      <label htmlFor="name" className="block text-sm font-medium text-gray-300">Full Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        className="mt-1 w-full px-4 py-2 bg-white bg-opacity-10 border border-gray-300 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        placeholder="Enter your full name"
+      />
+    </div>
+    <div>
+      <label htmlFor="email" className="block text-sm font-medium text-gray-300">Email Address</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        className="mt-1 w-full px-4 py-2 bg-white bg-opacity-10 border border-gray-300 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        placeholder="Enter your email"
+      />
+    </div>
+    <div>
+      <label htmlFor="phone" className="block text-sm font-medium text-gray-300">Phone Number</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        className="mt-1 w-full px-4 py-2 bg-white bg-opacity-10 border border-gray-300 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+        placeholder="Enter your phone number"
+      />
+    </div>
+    <motion.button
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      type="submit"
+      className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition duration-300 shadow-md"
+      onClick={() => navigate(`/enroll/${course.id}`)}
+    >
+      Submit Enrollment
+    </motion.button>
+    <div className="text-center text-sm text-gray-300 mt-4">
+      <p>Unlock Your Future with Every Lesson!</p>
+    </div>
+  </form>
+</motion.div>
           </motion.div>
         </div>
       </section>
@@ -451,10 +456,10 @@ const course = courses.find((item) => item.id === courseId);
         transition={{ duration: 0.6, delay: 0.2 }}
         className="relative bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow gradient-shadow moving-border-shadow"
       >
-        <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+        {/* <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
           <FaStar className="text-yellow-500 mr-3" />
           Video Presentation
-        </h3>
+        </h3> */}
         {course.videoPresentation ? (
           <img
             src={course.videoPresentation}
@@ -749,14 +754,14 @@ const course = courses.find((item) => item.id === courseId);
                 className="relative flex-shrink-0"
               >
                 <div className="absolute inset-0 rounded-full border-4 border-indigo-200 shadow-lg animate-pulse-slow"></div>
-                <img
+                {/* <img
                   src={instructor.image || "https://via.placeholder.com/144"}
                   alt={instructor.name || "Instructor"}
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-md object-cover relative z-10"
                   onError={(e) => {
                     e.target.src = "https://via.placeholder.com/144";
                   }}
-                />
+                /> */}
                 <div className="absolute -bottom-2 -right-2 bg-indigo-600 text-white px-3 py-1 rounded-full text-xs font-bold shadow-lg z-20">
                   <span className="relative flex h-3 w-3">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
@@ -769,7 +774,7 @@ const course = courses.find((item) => item.id === courseId);
                 <h3 className="text-2xl font-bold text-gray-900">
                   {instructor.name || "Unknown Instructor"}
                 </h3>
-                <p className="text-indigo-600 font-medium mb-3">{instructor.role || "N/A"}</p>
+                {/* <p className="text-indigo-600 font-medium mb-3">{instructor.role || "N/A"}</p> */}
                 <div className="flex items-center mb-3">
                   <div className="flex">
                     {[...Array(5)].map((_, i) => (

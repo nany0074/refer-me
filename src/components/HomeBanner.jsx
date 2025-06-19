@@ -14,58 +14,45 @@ import { FaShippingFast, FaHeadset, FaUndoAlt } from 'react-icons/fa';
       title: "Summer Collection",
       subtitle: "New Arrivals 2023",
       // image: '../../src/assets/banners/ban2.png', // - wrong method
-      image: '/assets/banners/online-coures8 (4).jpg', // - right metho
+      image: '/assets/banner-new/online-coures1.1.jpg', // - right metho
       cta: "Shop Now"
     },
     {
       id: 2,
       title: "Winter Special",
       subtitle: "Up to 50% Off",
-      image: "assets/banners/online-coures8 (4).jpg",
+      image: "/assets/banner-new/online-coures2.1.jpg",
       cta: "Discover More"
     },
     {
       id: 3,
       title: "Limited Edition",
       subtitle: "Exclusive Designs",
-      image: "/assets/banners/online-coures 4.jpg",
+      image: "/assets/banner-new/online-coures3.1.jpg",
       cta: "View Collection"
     },
     {
         id: 4,
         title: "Limited Edition",
         subtitle: "Exclusive Designs",
-        image: "assets/banners/online-coures8 (4).jpg",
+        image: "/assets/banner-new/online-coures4.1.jpg",
         cta: "View Collection"
       },
       {
         id: 5,
         title: "Limited Edition",
         subtitle: "Exclusive Designs",
-        image: "/assets/banners/rfm-home.1.jpg",
+        image: "/assets/banner-new/online-coures5.1.jpg",
         cta: "View Collection"
       },
       {
         id: 6,
         title: "Limited Edition",
         subtitle: "Exclusive Designs",
-        image: "/assets/banners/online-coures 6.jpg",
+        image: "/assets/banner-new/online-coures8 (4).jpg",
         cta: "View Collection"
       },
-        {
-        id: 7,
-        title: "Limited Edition",
-        subtitle: "Exclusive Designs",
-        image: "/assets/banners/online-coures 5.jpg",
-        cta: "View Collection"
-      },
-        {
-        id: 8,
-        title: "Limited Edition",
-        subtitle: "Exclusive Designs",
-        image: "/assets/banners/online-coures7 (1).jpg",
-        cta: "View Collection"
-      }
+      
   ];
 
 

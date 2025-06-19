@@ -239,7 +239,7 @@ const BlogPage = () => {
     <>
 
  <div>
-        <img src={"/assets/banners/bann2.jpg"} alt="Banner" className="w-full" />
+        <img src={"/assets/banner-new/blog.jpg"} alt="Banner" className="w-full" />
       </div>
 
         <div className="bg-violet-100 py-12 px-4 sm:px-6 lg:px-8">

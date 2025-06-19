@@ -152,24 +152,7 @@ const PaymentPolicy = () => {
             </div>
           </section>
 
-          {/* Shipping Returns */}
-          <section className="group">
-            <div className="flex items-start">
-              <div className="flex-shrink-0 bg-amber-100 p-2 rounded-lg">
-                <svg className="h-6 w-6 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
-                </svg>
-              </div>
-              <div className="ml-4">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">Shipping Returns</h2>
-                <div className="space-y-4 text-gray-600">
-                  <p>To return your product, mail it to: [Your Physical Address].</p>
-                  <p>You are responsible for return shipping costs (non-refundable). If you receive a refund, return shipping costs will be deducted.</p>
-                  <p>Exchange delivery times vary by location. For expensive items, consider using trackable shipping or insurance. We don't guarantee receipt of returned items.</p>
-                </div>
-              </div>
-            </div>
-          </section>
+        
 
           {/* Need Help? */}
           <section className="group">

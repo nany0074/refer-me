@@ -300,59 +300,11 @@ const Freelancing = () => {
         </div>
       </section>
 
-      {/* Pricing */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Flexible Pricing Options</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Choose the package that fits your needs and budget
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            <PricingCard 
-              title="Basic" 
-              price="299" 
-              features={[
-                "Small-scale projects",
-                "Standard design/development",
-                "Basic documentation",
-                "Email support"
-              ]} 
-            />
-            
-            <PricingCard 
-              title="Standard" 
-              price="599" 
-              popular={true}
-              features={[
-                "Medium-scale projects",
-                "Custom design/development",
-                "Detailed documentation",
-                "Video walkthrough",
-                "Priority support"
-              ]} 
-            />
-            
-            <PricingCard 
-              title="Premium" 
-              price="999" 
-              features={[
-                "Large/complex projects",
-                "Premium design/development",
-                "Comprehensive documentation",
-                "Live Q&A session",
-                "Code/design review",
-                "24/7 support"
-              ]} 
-            />
-          </div>
-        </div>
-      </section>
+    
+    
 
       {/* Portfolio */}
-      <section className="py-20 bg-gradient-to-b from-gray-100 to-gray-200">
+      <section className="py-14 bg-gradient-to-b from-gray-100 to-gray-200">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Our Freelance Work Portfolio</h2>

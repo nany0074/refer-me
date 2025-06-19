@@ -60,14 +60,13 @@ const Footer = () => {
 
   // Define link groups with their corresponding paths
   const quickLinks = [
-    { text: "Home", path: "" },
-    { text: "Our Story", path: paths.story },
-    { text: "What we do", path: paths.whatWeDo },
-    { text: "Meet Our Team", path: paths.team },
-    { text: "Payment Policy", path: paths.paymentPolicy },
-    { text: "Jobs", path: paths.jobs },
-    { text: "Career", path: paths.career },
-    { text: "Contact Us", path: paths.contact }
+    { text: "Home", path: "/" },
+    { text: "Our Story", path: '/about/history' },
+    { text: "What we do", path: '/about/whatwedo' },
+    { text: "Meet Our Team", path: '/about/team' },
+    { text: "Payment Policy", path: '/about/paymentpolicy' },
+    { text: "Career", path: '/career' },
+    { text: "Contact Us", path: '/contact' }
   ];
 
 const courses = [

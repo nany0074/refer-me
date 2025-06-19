@@ -34,6 +34,7 @@ import AddBlog from "../admin/blogs/AddBlog";
 import EditBlog from "../admin/blogs/EditBlog";
 import Webinars from "../pages/Services/Webinars"
 import courses from "../data/courses";
+import WebinarDetail from "../pages/Services/WebinarDetail";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -58,11 +59,12 @@ const router = createBrowserRouter([
         path: "services",
         children: [
           { path: "webinars", element: <Webinars /> },
+     
           { path: "partnership-programs", element: <PartnershipPrograms/> },
             { path: "freelancing", element: <Freelancing/> },
         ],
       },
-
+      { path: "/webinars/:id", element: <WebinarDetail /> },
       {
         path: "blogs",
         children: [
