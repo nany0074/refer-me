@@ -75,7 +75,7 @@ Founded by a team of passionate entrepreneurs, Refer Me Group was born out of th
 
       <div className="w-full lg:w-[45%] pt-10 flex justify-center items-center gap-2">
         {/* Slider 1 - Slanted and Bottom to Top */}
-        <div className="w-1/2 transform -skew-x-6 overflow-hidden">
+        <div className="w-1/2 transform -skew-x-0 overflow-hidden">
           <Swiper
             direction="vertical"
             slidesPerView={2.5}
@@ -102,7 +102,7 @@ Founded by a team of passionate entrepreneurs, Refer Me Group was born out of th
         </div>
 
         {/* Slider 2 - Slanted and Top to Bottom */}
-        <div className="w-1/2 transform -skew-x-6 overflow-hidden">
+        <div className="w-1/2 transform -skew-x-0 overflow-hidden">
           <Swiper
             direction="vertical"
             slidesPerView={2}
@@ -115,7 +115,7 @@ Founded by a team of passionate entrepreneurs, Refer Me Group was born out of th
               disableOnInteraction: false,
             }}
             modules={[Autoplay]}
-            className="h-[500px] bg-gray-100"
+            className="h-[570px] bg-gray-100"
           >
             {images2.map((item, index) => (
               <SwiperSlide key={index} className="!flex !justify-center">

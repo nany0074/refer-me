@@ -103,7 +103,7 @@ const PlacementRecordsSection = () => {
         </h2>
 
         {/* Slider */}
-        <Slider {...settings} className="relative overflow-visible">
+        <Slider {...settings} className="relative overflow-hidden">
           {students.map((student, idx) => (
             <div key={idx} className="px-4 overflow-visible ">
               <div className="bg-white/30 border border-gray-500 backdrop-blur-lg rounded-lg shadow-xl p-4 text-center border border-white/20 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-visible">

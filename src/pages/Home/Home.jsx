@@ -54,30 +54,19 @@ const Home = () => {
       <EnquiryModal isOpen={isModalOpen} onClose={closeModal} />
         <HomeBanner />
         <Companies />
-
         <WhyChooseUs />
-
-        {/* <Identity/> */}
         <TestimonialSection />
            <HeroSection />
-    
         <CourseGallerySection />
      <LearningSection/>
-          <HiringSection/>
-        {/* <BusinessSection/> */}
+          <HiringSection/> 
         <KnowledgeFLOSection />
         <JobReadySection />
-
         <AchievementSection />
-        <VedioFAQSection />
-        {/* <SectionGreen/> */}
+        <VedioFAQSection />  
         <Certificate />
-        {/* <ReferMeGroupSection/> */}
-
-        {/* <Testimonials/> */}
-
         <DomainsSection />
-        <PlacementRecordsSection />
+         <PlacementRecordsSection /> 
 
       </main>
     </>

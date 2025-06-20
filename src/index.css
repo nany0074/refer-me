@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  /* overflow-x: hidden; */
+}
+
 /* Custom styling for Swiper arrows */
 .swiper-button-next,
 .swiper-button-prev {
