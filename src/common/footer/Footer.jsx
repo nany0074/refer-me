@@ -222,7 +222,7 @@ const Footer = () => {
               </Link>
             </div>
             <p className={`${isTablet ? 'text-xs' : 'text-sm'} leading-relaxed text-gray-300`}>
-              We are dedicated to facilitating career advancement and fostering professional development.
+            We are dedicated to facilitating career advancement and fostering professional development. With a wealth of resources and initiatives, we strive to empower individuals at every stage of their journey.
             </p>
             <div className="flex space-x-4 mt-4">
               {[FiFacebook, FiTwitter, FiLinkedin, FiInstagram].map((Icon, index) => (
