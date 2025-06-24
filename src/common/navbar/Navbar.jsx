@@ -407,7 +407,7 @@ export default function Navbar() {
               className="px-5 py-3 border-b border-gray-100 font-medium hover:bg-yellow-50 transition-colors focus:bg-yellow-50 focus:outline-none"
               aria-label="Home"
               onClick={() => setSidebarOpen(false)}
-            >
+            > 
               Home
             </Link>
             <div className="border-b border-gray-100">

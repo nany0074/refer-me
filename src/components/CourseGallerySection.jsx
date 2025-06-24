@@ -43,7 +43,7 @@ const CourseGallerySection = () => {
       </motion.div>
 
       {/* Category Tabs */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
@@ -62,7 +62,7 @@ const CourseGallerySection = () => {
             {category}
           </button>
         ))}
-      </motion.div>
+      </motion.div> */}
 
       {/* Course Cards */}
       <motion.div
