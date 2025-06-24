@@ -28,9 +28,9 @@ const Certificate = () => {
 This certificate not only demonstrates your readiness to excel in entry-level roles but also boosts your confidence and helps you stand out in today’s competitive job market. Whether you’re starting fresh or switching careers, our certificate serves as a trusted proof of your expertise to employers and industry professionals alike.
             </p>
 
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-md mb-8">
+            {/* <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-md mb-8">
               Start for Free →
-            </button>
+            </button> */}
 
             {/* <div className="flex flex-col lg:flex-row gap-4 items-center justify-center ">
               <div className="w-full lg:w-6/12  flex items-center justify-center gap-2">

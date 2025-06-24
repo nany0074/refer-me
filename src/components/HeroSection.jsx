@@ -24,7 +24,7 @@ function HeroSection() {
             </p>
 
             {/* Search Bar */}
-            <div className="flex mb-8">
+            {/* <div className="flex mb-8">
               <input
                 type="text"
                 placeholder="Start your search now or browse services below"
@@ -33,7 +33,7 @@ function HeroSection() {
               <button className="bg-orange-500 text-white px-6 py-3 rounded-r-md hover:bg-orange-600 transition duration-300">
                 SEARCH
               </button>
-            </div>
+            </div> */}
 
             {/* Training Methods and Stats */}
             <div className="flex flex-col md:flex-row justify-between items-start">

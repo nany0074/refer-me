@@ -151,11 +151,11 @@ export default function DomainsSection() {
           ))}
         </Swiper>
 
-        <div className="mt-8">
+        {/* <div className="mt-8">
           <button className="bg-gray-500 hover:bg-gray-600 text-white px-6 py-3 rounded-full font-semibold shadow-md">
             Browse All Courses
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
