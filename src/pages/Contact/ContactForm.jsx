@@ -34,7 +34,7 @@ const ContactForm = () => {
       formData.append('address', data?.address);
       formData.append('message', data?.message);
       
-      const response = await axios.postForm('http://localhost:3000/server.php', formData);
+      // const response = await axios.postForm('http://localhost:3000/server.php', formData);
       if (response.status === 200 || response.status === 201) {
         console.log(response.data);
       }

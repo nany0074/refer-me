@@ -86,6 +86,7 @@ const Footer = () => {
     { text: "Payment Policy", path: "/about/paymentpolicy" },
     { text: "Career", path: "/career" },
     { text: "Contact Us", path: "/contact" },
+    { text: "Admin Login", path: "/contact" },
   ];
 
   const courses = [

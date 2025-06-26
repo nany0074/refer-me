@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useLocation, useNavigate , useParams} from "react-router-dom";
 import {
   FaCheck,
@@ -30,6 +30,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import courses from '../data/courses'
 
 const CourseDetail = () => {
+  const formRef = useRef(null); // Define formRef
   const { courseId } = useParams();
   const location = useLocation();
   const navigate = useNavigate();
@@ -39,6 +40,7 @@ const CourseDetail = () => {
   const [expandedModule, setExpandedModule] = useState(null);
   const [formError, setFormError] = useState("");
   const [isClient, setIsClient] = useState(false);
+  const [formSubmitted, setFormSubmitted] = useState(false);
 
   useEffect(() => {
     setIsClient(true);
@@ -130,32 +132,52 @@ const course = courses.find((item) => item.id === courseId);
     ],
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    const formData = new FormData(e.target);
-    const name = formData.get("name")?.trim();
-    const email = formData.get("email")?.trim();
-    const phone = formData.get("phone")?.trim();
+const handleFormSubmit = async (e) => {
+  if (e) e.preventDefault(); // 💡 most reliable
 
-    // Basic validation
-    if (!name || !email || !phone) {
-      setFormError("Please fill in all fields.");
-      return;
-    }
-    if (!/^\S+@\S+\.\S+$/.test(email)) {
-      setFormError("Please enter a valid email address.");
-      return;
-    }
-    if (!/^\d{10}$/.test(phone)) {
-      setFormError("Please enter a valid 10-digit phone number.");
-      return;
+
+  // Clear any existing messages
+  setFormError("");
+  setFormSubmitted(false);
+
+  const form = formRef.current;
+  const formData = new FormData(form);
+  const name = formData.get("name")?.trim();
+  const email = formData.get("email")?.trim();
+  const phone = formData.get("phone")?.trim();
+
+  if (!name || !email || !phone) {
+    alert("Please fill in all fields");
+    return;
+  }
+
+ setFormSubmitted(true);
+  setTimeout(() => setFormSubmitted(false), 3000);
+  e.target.reset();
+
+  try {
+    const response = await fetch("http://localhost/refer-me-updated-code/php/course-enquiry.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name, email, phone }),
+    });
+
+    if (!response.ok) {
+      const error = await response.json();
+      throw new Error(error.error || "Submission failed");
     }
 
-    setFormError("");
-    setEnquirySubmitted(true);
-    e.target.reset();
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+    const result = await response.json();
+    // alert(result.message || "Thank you for your enquiry!");
+    form.reset();
+    window.history.replaceState(null, "", window.location.pathname); // ✅ clears query string
+  } catch (err) {
+    console.error("Submit error:", err);
+    // alert("Error: " + err.message);
+  }
+};
+
+
 
   // Variants for background moving objects
   const particleVariants = {
@@ -359,7 +381,7 @@ const course = courses.find((item) => item.id === courseId);
   transition={{ duration: 0.8, delay: 0.2 }}
   className="lg:w-1/3 bg-white bg-opacity-10 rounded-2xl p-8 border border-white border-opacity-20 backdrop-blur-lg"
 >
-  <form className="space-y-6">
+  <form ref={formRef} onSubmit={handleFormSubmit} className="space-y-6">
     <div>
       <label htmlFor="name" className="block text-sm font-medium text-gray-300">Full Name</label>
       <input
@@ -392,12 +414,38 @@ const course = courses.find((item) => item.id === courseId);
         placeholder="Enter your phone number"
       />
     </div>
+
+ <AnimatePresence>
+    {formError && (
+      <motion.p
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -10 }}
+        className="text-red-500 text-sm mb-3 text-center"
+      >
+        {formError}
+      </motion.p>
+    )}
+    {formSubmitted && (
+      <motion.p
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -10 }}
+        className="text-green-600 text-sm mb-3 text-center"
+      >
+        Form submitted successfully! We'll contact you shortly.
+      </motion.p>
+    )}
+  </AnimatePresence>
+  
+
+
     <motion.button
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       type="submit"
       className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition duration-300 shadow-md"
-      onClick={() => navigate(`/enroll/${course.id}`)}
+     
     >
       Submit Enrollment
     </motion.button>
@@ -1028,97 +1076,7 @@ const course = courses.find((item) => item.id === courseId);
 
             <div className="relative bg-white rounded-2xl shadow-xl p-8 overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-indigo-50/20 to-transparent opacity-30"></div>
-              <div className="relative z-10">
-                <span className="inline-block px-3 py-1.5 bg-green-100 text-green-700 text-xs font-semibold tracking-wider uppercase rounded-full mb-3">
-                  Take the Leap
-                </span>
-                <h3 className="text-2xl font-extrabold text-gray-900 mb-2">Start Your Journey</h3>
-                <p className="text-gray-600 text-base mb-6">Let our counselors guide you to the ideal program.</p>
-                <div className="mb-6 flex flex-wrap gap-4">
-                  <div className="flex items-center text-gray-700">
-                    <FaUsers className="text-indigo-600 mr-2" />
-                    <span className="text-sm">{course.enrolled || "0"} Enrolled</span>
-                  </div>
-                  <div className="flex items-center text-gray-700">
-                    <FaStar className="text-yellow-400 mr-2" />
-                    <span className="text-sm">{averageRating} Rating</span>
-                  </div>
-                  <div className="flex items-center text-gray-700">
-                    <RiMoneyDollarCircleLine className="text-green-600 mr-2" />
-                    <span className="text-sm">Money Back</span>
-                  </div>
-                </div>
-                <AnimatePresence>
-                  {formError && (
-                    <motion.p
-                      initial={{ opacity: 0, y: -10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -10 }}
-                      className="text-red-500 text-sm mb-3 text-center"
-                    >
-                      {formError}
-                    </motion.p>
-                  )}
-                </AnimatePresence>
-                <form onSubmit={handleFormSubmit} className="space-y-4">
-                  <div className="relative">
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      required
-                      className="w-full px-3 py-2.5 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition peer placeholder-transparent text-gray-900"
-                      placeholder="Name"
-                    />
-                    <label
-                      htmlFor="name"
-                      className="absolute left-3 -top-2 bg-white px-1 text-xs font-medium text-gray-600 transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-indigo-600"
-                    >
-                      Full Name
-                    </label>
-                  </div>
-                  <div className="relative">
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      required
-                      className="w-full px-3 py-2.5 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition peer placeholder-transparent text-gray-900"
-                      placeholder="Email"
-                    />
-                    <label
-                      htmlFor="email"
-                      className="absolute left-3 -top-2 bg-white px-1 text-xs font-medium text-gray-600 transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-indigo-600"
-                    >
-                      Email Address
-                    </label>
-                  </div>
-                  <div className="relative">
-                    <input
-                      type="tel"
-                      name="phone"
-                      id="phone"
-                      required
-                      className="w-full px-3 py-2.5 border border-gray-300 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition peer placeholder-transparent text-gray-900"
-                      placeholder="Phone"
-                    />
-                    <label
-                      htmlFor="phone"
-                      className="absolute left-3 -top-2 bg-white px-1 text-xs font-medium text-gray-600 transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-indigo-600"
-                    >
-                      Phone Number
-                    </label>
-                  </div>
-                  <motion.button
-                    whileHover={{ scale: 1.03 }}
-                    whileTap={{ scale: 0.97 }}
-                    type="submit"
-                    className="w-full py-3 bg-gradient-to-r from-indigo-600 to-indigo-800 text-white font-semibold rounded-lg shadow-lg hover:from-indigo-700 hover:to-indigo-900 transition duration-300 animate-pulse-slow"
-                  >
-                    Submit Enquiry
-                  </motion.button>
-                </form>
-              </div>
+            <img src="/assets/gifs/1.gif" alt="" className="w-full"/>
             </div>
           </motion.div>
         </div>
