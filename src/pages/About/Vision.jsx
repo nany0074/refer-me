@@ -544,18 +544,18 @@ const Vision = () => {
         </motion.section>
 
         {/* Image Grid: Our Impact (Now using CustomSlider) */}
-        <motion.section
+        {/* <motion.section
           className="py-16 px-4 md:px-16 bg-gray-100" // Adjusted for light theme
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeIn}
         >
-          <h2 className="text-4xl font-bold text-center mb-12 text-blue-600"> {/* Adjusted for light theme */}
+          <h2 className="text-4xl font-bold text-center mb-12 text-blue-600"> 
             Our Impact in Action
           </h2>
           <CustomSlider slides={impactSlides} autoplayDelay={4000} slidesPerView={4} className="max-w-7xl mx-auto rounded-lg shadow-2xl py-12 px-8" />
-        </motion.section>
+        </motion.section> */}
 
         {/* Timeline: Our Journey */}
         <motion.section

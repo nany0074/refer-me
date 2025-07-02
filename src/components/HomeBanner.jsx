@@ -16,35 +16,35 @@ const slides = [
     id: 2,
     title: "Winter Special",
     subtitle: "Up to 50% Off",
-    image: "/assets/banner-new/RMG1.jpg",
+    image: "/assets/banner-new/RMG2.jpg",
     cta: "Discover More"
   },
   {
     id: 3,
     title: "Limited Edition",
     subtitle: "Exclusive Designs",
-    image: "/assets/banner-new/online-coures5.1.1...jpg",
+    image: "/assets/banner-new/RMG3.jpg",
     cta: "View Collection"
   },
   {
     id: 4,
     title: "Limited Edition",
     subtitle: "Exclusive Designs",
-    image: "/assets/banner-new/online-coures5.1.1...jpg",
+    image: "/assets/banner-new/RMG4.jpg",
     cta: "View Collection"
   },
-  {
-    id: 5,
-    title: "Limited Edition",
-    subtitle: "Exclusive Designs",
-    image: "/assets/banner-new/RMG1.jpg",
-    cta: "View Collection"
-  },
+  // {
+  //   id: 5,
+  //   title: "Limited Edition",
+  //   subtitle: "Exclusive Designs",
+  //   image: "/assets/banner-new/RMG1.jpg",
+  //   cta: "View Collection"
+  // },
   {
     id: 6,
     title: "Limited Edition",
     subtitle: "Exclusive Designs",
-    image: "/assets/banner-new/RMG1.jpg",
+    image: "/assets/banner-new/RMG3.jpg",
     cta: "View Collection"
   },
 ];

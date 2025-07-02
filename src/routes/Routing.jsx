@@ -17,6 +17,7 @@ import CoreComitee from "../pages/About/CoreComitee";
 import Freelancing from "../pages/Services/Freelancing";
 import PartnershipPrograms from "../pages/Services/PartnershipPrograms";
 import Login from "../pages/Login";
+import Signup from "../pages/SignUp";
 import AdminLayout from "../layout/AdminLayout";
 import Dashboard from "../admin/dashboard/Dashboard";
 import AdminProducts from "../admin/products/AdminProducts";
@@ -35,6 +36,8 @@ import EditBlog from "../admin/blogs/EditBlog";
 import Webinars from "../pages/Services/Webinars"
 import courses from "../data/courses";
 import WebinarDetail from "../pages/Services/WebinarDetail";
+import Studentdashboard from "../admin/dashboard/Studentdashboard";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -84,6 +87,7 @@ const router = createBrowserRouter([
       { path: "contact", element: <ContactUs /> },
       { path: "career", element: <Careers /> },
       { path: "login", element: <Login /> },
+       { path: "signup", element: <Signup/> },
       { path: "courses/:courseId", element: <CourseDetail /> },
     ],
   },
@@ -101,6 +105,16 @@ const router = createBrowserRouter([
       {
         path:"editBlog" , element: <EditBlog />
       },
+      { path: "*", element: <h2>Admin 404 page!</h2> },
+    ],
+  },
+
+  {
+    path: "/student",
+    element: <AdminLayout />,
+    children: [
+      { index: true, element: <Studentdashboard /> },
+      
       { path: "*", element: <h2>Admin 404 page!</h2> },
     ],
   },
